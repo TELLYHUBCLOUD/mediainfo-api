@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/mediainfo.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/api/mediainfo", "dest": "api/mediainfo.py" }
+  ]
+}
